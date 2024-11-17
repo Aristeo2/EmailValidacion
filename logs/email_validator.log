@@ -1,0 +1,8 @@
+2024-11-17 18:06:45,725 - emails.validator - DEBUG - Validando el correo: usuario@gmail.com
+2024-11-17 18:06:45,725 - emails.validator - INFO - Correo válido: usuario@gmail.com
+2024-11-17 18:06:45,725 - emails.validator - DEBUG - Validando el correo: usuario.nombre@gmail.com
+2024-11-17 18:06:45,725 - emails.validator - INFO - Correo válido: usuario.nombre@gmail.com
+2024-11-17 18:06:45,725 - emails.validator - DEBUG - Validando el correo: usuario@@gmail
+2024-11-17 18:06:45,725 - emails.validator - WARNING - Correo inválido: usuario@@gmail
+2024-11-17 18:06:45,725 - emails.validator - DEBUG - Validando el correo: 12345
+2024-11-17 18:06:45,725 - emails.validator - ERROR - Error al validar el correo '12345': expected string or bytes-like object, got 'int'
